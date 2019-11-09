@@ -1,0 +1,6 @@
+@charset "utf8";
+
+li {
+  font-size: 16pt;
+  transition: 1s;
+}

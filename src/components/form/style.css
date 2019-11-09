@@ -1,0 +1,42 @@
+@charset "utf8";
+
+button {
+  background-color: #0d863c;
+  border: none;
+  width: 17%;
+  height: 55px;
+  margin: 10px;
+  border-radius: 50px;
+}
+
+button > span {
+  color: #000;
+}
+
+input {
+  background-color: #ffffff00;
+  border: none;
+  border-bottom: solid 2px #707070;
+  width: 25%;
+  padding: 10px;
+  margin: 30px;
+  transition: 1s;
+  font-size: 12pt;
+}
+
+input:focus {
+  background-color: #ffffff00;
+  border: none;
+  border-bottom: solid 2px #0d863c;
+  width: 38%;
+  padding: 10px;
+  margin: 30px;
+  transition: 1s;
+  font-size: 12pt;
+}
+
+@media screen and (max-width: 700px) {
+  button > span {
+    display: none;
+  }
+}
